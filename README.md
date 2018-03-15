@@ -31,7 +31,6 @@ Before you leave the terminal, make sure the sensor is sending messages of the f
 0.57 m
 0.57 m
 0.57 m
-
 ```
 
 
@@ -41,8 +40,6 @@ Create a catkin workspace. For instructions on how to create the workspace go [h
 
 
 ```
-#!bash
-
 cd catkin_ws/src
 git clone git@bitbucket.org:castacks/sf30_node.git
 cd ..
@@ -55,11 +52,8 @@ catkin_make
 In a terminal run:
 
 ```
-#!bash
 source devel/setup.bash
 roslaunch sf30_node sf30.launch
-
-
 ```
 
 The message of type `sensor_msgs::LaserScan` will be published in topic `/sf30/range` at 50Hz. The intensities field on this message means data confidence. It is `1` if we can trust the given range.
@@ -67,6 +61,7 @@ The message of type `sensor_msgs::LaserScan` will be published in topic `/sf30/r
 ### Who do I talk to?
 
 * Guilherme Pereira - gpereira@ufmg.br
+* Bin Xu - binx@andrew.cmu.edu
 
 ### Final Remarks
 
