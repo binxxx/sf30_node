@@ -47,7 +47,7 @@ catkin_make
 ```
 
 
-###To run the node:
+### To run the node:
 
 In a terminal run:
 
@@ -61,7 +61,7 @@ The message of type `sensor_msgs::LaserScan` will be published in topic `/sf30/r
 ### Who do I talk to?
 
 * Guilherme Pereira - gpereira@ufmg.br
-* Bin Xu - binx@andrew.cmu.edu
+* Bin Xu (Modifier) - binx@andrew.cmu.edu
 
 ### Final Remarks
 
